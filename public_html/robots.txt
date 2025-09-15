@@ -1,0 +1,15 @@
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Disallow: /
+User-agent: Googlebot
+Allow: /
+User-agent: Slurp
+Allow: /
+User-Agent: bingbot
+Allow: /
+User-Agent: msnbot
+Allow: /
+Disallow: *.pdf$
+
+Sitemap: https://labsolute.nl/sitemap_index.xml

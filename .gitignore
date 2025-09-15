@@ -1,0 +1,43 @@
+ # WordPress core files
+ /wp-admin/
+ /wp-includes/
+
+ # Sensitive files
+ wp-config.php
+
+ # Log files and databases
+ *.log
+ *.sql
+ *.sqlite
+
+ # OS generated files
+ .DS_Store
+ Thumbs.db
+
+ # IDE and editor folders
+ .idea/
+ .vscode/
+
+ # Composer dependencies
+ /vendor/
+
+ # Node dependencies
+ /node_modules/
+
+ # Uploaded files
+ /wp-content/uploads/
+
+ # Cache and backup
+ /wp-content/cache/
+ wp-content/backups/
+ *.bak
+ *.tmp
+
+ # Environment files
+ .env
+ .env.*
+
+ # SFTP config
+ .sftp-config.json
+
+ _TMP/

@@ -1,0 +1,802 @@
+[21-Apr-2022 13:24:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function update_meta() on null in /home/customer/www/ronaldv47.sg-host.com/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php:285
+Stack trace:
+#0 /home/customer/www/ronaldv47.sg-host.com/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(166): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->save_conditions(41, Array)
+#1 [internal function]: ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->ajax_save_theme_template_conditions(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 /home/customer/www/ronaldv47.sg-host.com/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#3 /home/customer/www/ronaldv47.sg-host.com/public_html/wp-includes/class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#4 /home/customer/ in /home/customer/www/ronaldv47.sg-host.com/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php on line 285
+[21-Apr-2022 14:45:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function update_meta() on bool in /home/customer/www/ronaldv47.sg-host.com/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php:285
+Stack trace:
+#0 /home/customer/www/ronaldv47.sg-host.com/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(166): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->save_conditions(NULL, Array)
+#1 [internal function]: ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->ajax_save_theme_template_conditions(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 /home/customer/www/ronaldv47.sg-host.com/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#3 /home/customer/www/ronaldv47.sg-host.com/public_html/wp-includes/class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#4 /home/custome in /home/customer/www/ronaldv47.sg-host.com/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php on line 285
+[02-May-2022 07:48:31 UTC] PHP Fatal error:  Uncaught Error: Class 'Elementor\Scheme_Color' not found in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php:383
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php(139): Cartflows_Pro_Offer_Action_Button->register_button_style_controls()
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2280): Cartflows_Pro_Offer_Action_Button->_register_controls()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#4 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/manage in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php on line 383
+[02-May-2022 09:57:48 UTC] PHP Fatal error:  Uncaught Error: Class 'Elementor\Scheme_Color' not found in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php:383
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php(139): Cartflows_Pro_Offer_Action_Button->register_button_style_controls()
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2280): Cartflows_Pro_Offer_Action_Button->_register_controls()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#4 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/manage in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php on line 383
+[02-May-2022 10:04:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Elementor\Scheme_Color' not found in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php:383
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php(139): Cartflows_Pro_Offer_Action_Button->register_button_style_controls()
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2280): Cartflows_Pro_Offer_Action_Button->_register_controls()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#4 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/manage in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php on line 383
+[02-May-2022 12:46:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Elementor\Scheme_Color' not found in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php:383
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php(139): Cartflows_Pro_Offer_Action_Button->register_button_style_controls()
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2280): Cartflows_Pro_Offer_Action_Button->_register_controls()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#4 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/manage in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php on line 383
+[02-May-2022 12:48:26 UTC] PHP Fatal error:  Uncaught Error: Class 'Elementor\Scheme_Color' not found in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php:383
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php(139): Cartflows_Pro_Offer_Action_Button->register_button_style_controls()
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2280): Cartflows_Pro_Offer_Action_Button->_register_controls()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#4 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/manage in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php on line 383
+[02-May-2022 12:49:33 UTC] PHP Fatal error:  Uncaught Error: Class 'Elementor\Scheme_Color' not found in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php:383
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php(139): Cartflows_Pro_Offer_Action_Button->register_button_style_controls()
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2280): Cartflows_Pro_Offer_Action_Button->_register_controls()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#4 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/manage in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php on line 383
+[02-May-2022 14:35:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function update_meta() on bool in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php:285
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(166): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->save_conditions(NULL, Array)
+#1 [internal function]: ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->ajax_save_theme_template_conditions(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#3 /home/customer/www/labsolute.nl/public_html/wp-includes/class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#4 /home/customer/www/labsolute.nl/public_html/wp-in in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php on line 285
+[03-May-2022 11:31:28 UTC] PHP Fatal error:  Uncaught Error: Class 'Elementor\Scheme_Color' not found in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php:383
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php(139): Cartflows_Pro_Offer_Action_Button->register_button_style_controls()
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2280): Cartflows_Pro_Offer_Action_Button->_register_controls()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#4 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/manage in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php on line 383
+[05-May-2022 07:55:52 UTC] PHP Fatal error:  Uncaught Error: Class 'Elementor\Scheme_Color' not found in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php:383
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php(139): Cartflows_Pro_Offer_Action_Button->register_button_style_controls()
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2280): Cartflows_Pro_Offer_Action_Button->_register_controls()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#4 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/manage in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php on line 383
+[10-May-2022 11:37:18 UTC] PHP Fatal error:  Uncaught Error: Class 'Elementor\Scheme_Color' not found in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php:383
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php(139): Cartflows_Pro_Offer_Action_Button->register_button_style_controls()
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2280): Cartflows_Pro_Offer_Action_Button->_register_controls()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#4 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/manage in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php on line 383
+[10-May-2022 12:14:02 UTC] PHP Fatal error:  Uncaught Error: Class 'Elementor\Scheme_Color' not found in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php:383
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php(139): Cartflows_Pro_Offer_Action_Button->register_button_style_controls()
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2280): Cartflows_Pro_Offer_Action_Button->_register_controls()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#4 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/manage in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php on line 383
+[10-May-2022 12:20:59 UTC] PHP Fatal error:  Uncaught Error: Class 'Elementor\Scheme_Color' not found in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php:383
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php(139): Cartflows_Pro_Offer_Action_Button->register_button_style_controls()
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2280): Cartflows_Pro_Offer_Action_Button->_register_controls()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#4 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/manage in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php on line 383
+[10-May-2022 12:23:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function update_meta() on bool in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php:285
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(166): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->save_conditions(NULL, Array)
+#1 [internal function]: ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->ajax_save_theme_template_conditions(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#3 /home/customer/www/labsolute.nl/public_html/wp-includes/class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#4 /home/customer/www/labsolute.nl/public_html/wp-in in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php on line 285
+[10-May-2022 12:23:52 UTC] PHP Fatal error:  Uncaught Error: Class 'Elementor\Scheme_Color' not found in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php:383
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php(139): Cartflows_Pro_Offer_Action_Button->register_button_style_controls()
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2280): Cartflows_Pro_Offer_Action_Button->_register_controls()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#4 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/manage in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php on line 383
+[10-May-2022 12:25:12 UTC] PHP Fatal error:  Uncaught Error: Class 'Elementor\Scheme_Color' not found in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php:383
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php(139): Cartflows_Pro_Offer_Action_Button->register_button_style_controls()
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2280): Cartflows_Pro_Offer_Action_Button->_register_controls()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#4 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/manage in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php on line 383
+[18-May-2022 20:14:57 UTC] PHP Fatal error:  Uncaught PharException: tar-based phar "/home/customer/www/labsolute.nl/public_html/wp-content/uploads/1652904816-54251fd31cb59762cf7c30350378b6de5fff6ef4/plugins/woocommerce.tar" cannot be created, filename "packages/woocommerce-blocks/build/product-button--product-category-list--product-image--product-price--product-rating--product-sale-b--e17c7c01.js" is too long for tar file format in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/siteground-migrator/includes/class-siteground-migrator-files-service.php:205
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/siteground-migrator/includes/class-siteground-migrator-files-service.php(205): PharData->buildFromDirectory('/home/customer/...')
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/siteground-migrator/includes/class-siteground-migrator-files-service.php(146): Siteground_Migrator_Files_Service->create_encrypted_archive('/plugins/woocom...')
+#2 /home/customer/www/labsolute.nl/public_html/wp-conten in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/siteground-migrator/includes/class-siteground-migrator-files-service.php on line 205
+[18-May-2022 20:22:45 UTC] PHP Fatal error:  Uncaught PharException: tar-based phar "/home/customer/www/labsolute.nl/public_html/wp-content/uploads/1652904816-54251fd31cb59762cf7c30350378b6de5fff6ef4/plugins/woocommerce.tar" cannot be created, filename "packages/woocommerce-blocks/build/product-button--product-category-list--product-image--product-price--product-rating--product-sale-b--e17c7c01.js" is too long for tar file format in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/siteground-migrator/includes/class-siteground-migrator-files-service.php:205
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/siteground-migrator/includes/class-siteground-migrator-files-service.php(205): PharData->buildFromDirectory('/home/customer/...')
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/siteground-migrator/includes/class-siteground-migrator-files-service.php(146): Siteground_Migrator_Files_Service->create_encrypted_archive('/plugins/woocom...')
+#2 /home/customer/www/labsolute.nl/public_html/wp-conten in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/siteground-migrator/includes/class-siteground-migrator-files-service.php on line 205
+[18-May-2022 21:25:21 UTC] WordPress databasefout Duplicate column name 'zbsmail_sender_maildelivery_key' bij query ALTER TABLE wp_zbs_sys_email_hist ADD COLUMN zbsmail_sender_maildelivery_key varchar(200) DEFAULT NULL gemaakt door require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, ZeroBSCRM->init, zeroBSCRM_migrations_run, zeroBSCRM_migration_295, zeroBSCRM_update_mail_history_table
+[18-May-2022 21:25:22 UTC] WordPress databasefout Unknown column 'zbss_contactid' in 'wp_zbs_externalsources' bij query ALTER TABLE wp_zbs_externalsources ADD `zbss_objtype` int(3) NOT NULL DEFAULT '-1' AFTER `zbs_owner`, CHANGE `zbss_contactid` `zbss_objid` int(32) NOT NULL AFTER `zbss_objtype`; gemaakt door require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, ZeroBSCRM->init, zeroBSCRM_migrations_run, zeroBSCRM_migration_2975
+[19-May-2022 10:23:28 UTC] PHP Fatal error:  Uncaught Error: Class 'Elementor\Scheme_Color' not found in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php:383
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php(139): Cartflows_Pro_Offer_Action_Button->register_button_style_controls()
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2280): Cartflows_Pro_Offer_Action_Button->_register_controls()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#4 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/manage in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php on line 383
+[19-May-2022 10:27:13 UTC] PHP Fatal error:  Uncaught Error: Class 'Elementor\Scheme_Color' not found in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php:383
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php(139): Cartflows_Pro_Offer_Action_Button->register_button_style_controls()
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2280): Cartflows_Pro_Offer_Action_Button->_register_controls()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#4 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/manage in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php on line 383
+[20-May-2022 12:07:33 UTC] PHP Fatal error:  Uncaught Error: Class 'Elementor\Scheme_Color' not found in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php:383
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php(139): Cartflows_Pro_Offer_Action_Button->register_button_style_controls()
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2280): Cartflows_Pro_Offer_Action_Button->_register_controls()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#4 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/manage in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php on line 383
+[20-May-2022 12:11:48 UTC] PHP Fatal error:  Uncaught Error: Class 'Elementor\Scheme_Color' not found in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php:383
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php(139): Cartflows_Pro_Offer_Action_Button->register_button_style_controls()
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2280): Cartflows_Pro_Offer_Action_Button->_register_controls()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#4 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/manage in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php on line 383
+[23-May-2022 14:02:03 UTC] WordPress databasefout Table 'dbjiyu6mvnhszx.wp_wpmailsmtp_tasks_meta' doesn't exist bij query SHOW FULL COLUMNS FROM `wp_wpmailsmtp_tasks_meta` gemaakt door require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, WPMailSMTP\Core->get_tasks, WPMailSMTP\Tasks\Tasks->init, WPMailSMTP\Tasks\Reports\SummaryEmailTask->init, WPMailSMTP\Tasks\Task->register, WPMailSMTP\Tasks\Meta->add, WPMailSMTP\Tasks\Meta->add_to_db
+[27-May-2022 09:04:53 UTC] WordPress databasefout Duplicate entry '2632-2576' for key 'PRIMARY' bij query INSERT INTO `wp_yoast_indexable_hierarchy` (`indexable_id`, `ancestor_id`, `depth`, `blog_id`) VALUES ('2632', '2576', '1', '1') gemaakt door do_action('wp_ajax_save-attachment'), WP_Hook->do_action, WP_Hook->apply_filters, wp_ajax_save_attachment, wp_update_post, wp_insert_attachment, wp_insert_post, do_action('edit_attachment'), WP_Hook->do_action, WP_Hook->apply_filters, Yoast\WP\SEO\Integrations\Watchers\Indexable_Post_Watcher->build_indexable, Yoast\WP\SEO\Builders\Indexable_Builder->build_for_id_and_type, Yoast\WP\SEO\Builders\Indexable_Builder->build, Yoast\WP\SEO\Builders\Indexable_Hierarchy_Builder->build, Yoast\WP\SEO\Builders\Indexable_Hierarchy_Builder->save_ancestors, Yoast\WP\SEO\Repositories\Indexable_Hierarchy_Repository->add_ancestor, Yoast\WP\Lib\Model->save, Yoast\WP\Lib\ORM->save, Yoast\WP\Lib\ORM::execute
+[27-May-2022 09:27:18 UTC] WordPress databasefout Duplicate entry '2635-2576' for key 'PRIMARY' bij query INSERT INTO `wp_yoast_indexable_hierarchy` (`indexable_id`, `ancestor_id`, `depth`, `blog_id`) VALUES ('2635', '2576', '1', '1') gemaakt door do_action('wp_ajax_save-attachment'), WP_Hook->do_action, WP_Hook->apply_filters, wp_ajax_save_attachment, wp_update_post, wp_insert_attachment, wp_insert_post, do_action('edit_attachment'), WP_Hook->do_action, WP_Hook->apply_filters, Yoast\WP\SEO\Integrations\Watchers\Indexable_Post_Watcher->build_indexable, Yoast\WP\SEO\Builders\Indexable_Builder->build_for_id_and_type, Yoast\WP\SEO\Builders\Indexable_Builder->build, Yoast\WP\SEO\Builders\Indexable_Hierarchy_Builder->build, Yoast\WP\SEO\Builders\Indexable_Hierarchy_Builder->save_ancestors, Yoast\WP\SEO\Repositories\Indexable_Hierarchy_Repository->add_ancestor, Yoast\WP\Lib\Model->save, Yoast\WP\Lib\ORM->save, Yoast\WP\Lib\ORM::execute
+[01-Jun-2022 14:35:29 UTC] PHP Fatal error:  Uncaught Error: Class 'Elementor\Scheme_Color' not found in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php:383
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php(139): Cartflows_Pro_Offer_Action_Button->register_button_style_controls()
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2280): Cartflows_Pro_Offer_Action_Button->_register_controls()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#4 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/manage in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php on line 383
+[05-Jun-2022 14:01:56 UTC] PHP Fatal error:  Uncaught Error: Class 'Elementor\Scheme_Color' not found in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php:383
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php(139): Cartflows_Pro_Offer_Action_Button->register_button_style_controls()
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2280): Cartflows_Pro_Offer_Action_Button->_register_controls()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#4 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/manage in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php on line 383
+[05-Jun-2022 14:03:39 UTC] PHP Fatal error:  Uncaught Error: Class 'Elementor\Scheme_Color' not found in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php:383
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php(139): Cartflows_Pro_Offer_Action_Button->register_button_style_controls()
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2280): Cartflows_Pro_Offer_Action_Button->_register_controls()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#4 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/manage in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php on line 383
+[05-Jun-2022 14:05:06 UTC] PHP Fatal error:  Uncaught Error: Class 'Elementor\Scheme_Color' not found in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php:383
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php(139): Cartflows_Pro_Offer_Action_Button->register_button_style_controls()
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2280): Cartflows_Pro_Offer_Action_Button->_register_controls()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#4 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/manage in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php on line 383
+[05-Jun-2022 14:05:57 UTC] PHP Fatal error:  Uncaught Error: Class 'Elementor\Scheme_Color' not found in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php:383
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php(139): Cartflows_Pro_Offer_Action_Button->register_button_style_controls()
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2280): Cartflows_Pro_Offer_Action_Button->_register_controls()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#4 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/manage in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/cartflows-pro/modules/elementor/widgets/class-cartflows-pro-el-offer-action-button.php on line 383
+[20-Jul-2022 18:14:33 UTC] Astra Addon: DB version updated!
+[12-Aug-2022 12:49:37 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one second.
+[31-Aug-2022 01:05:54 UTC] Astra Addon: DB version updated!
+[31-Aug-2022 01:06:01 UTC] Astra Addon: Batch Process Completed!
+[31-Aug-2022 08:30:25 UTC] PHP Fatal error:  Uncaught ReflectionException: Method get_site_editor_type does not exist in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:48
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(48): ReflectionClass->getMethod('get_site_editor...')
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(67): Elementor\Core\Common\Modules\Finder\Categories\Create->cre in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 48
+[31-Aug-2022 08:30:30 UTC] PHP Fatal error:  Uncaught ReflectionException: Method get_site_editor_type does not exist in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:48
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(48): ReflectionClass->getMethod('get_site_editor...')
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(67): Elementor\Core\Common\Modules\Finder\Categories\Create->cre in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 48
+[31-Aug-2022 08:30:30 UTC] PHP Fatal error:  Uncaught ReflectionException: Method get_site_editor_type does not exist in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:48
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(48): ReflectionClass->getMethod('get_site_editor...')
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(67): Elementor\Core\Common\Modules\Finder\Categories\Create->cre in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 48
+[31-Aug-2022 08:30:31 UTC] PHP Fatal error:  Uncaught ReflectionException: Method get_site_editor_type does not exist in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:48
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(48): ReflectionClass->getMethod('get_site_editor...')
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(67): Elementor\Core\Common\Modules\Finder\Categories\Create->cre in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 48
+[31-Aug-2022 08:30:31 UTC] PHP Fatal error:  Uncaught ReflectionException: Method get_site_editor_type does not exist in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:48
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(48): ReflectionClass->getMethod('get_site_editor...')
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(67): Elementor\Core\Common\Modules\Finder\Categories\Create->cre in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 48
+[31-Aug-2022 08:30:31 UTC] PHP Fatal error:  Uncaught ReflectionException: Method get_site_editor_type does not exist in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:48
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(48): ReflectionClass->getMethod('get_site_editor...')
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(67): Elementor\Core\Common\Modules\Finder\Categories\Create->cre in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 48
+[31-Aug-2022 08:38:25 UTC] PHP Fatal error:  Uncaught ReflectionException: Method get_site_editor_type does not exist in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:48
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(48): ReflectionClass->getMethod('get_site_editor...')
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(67): Elementor\Core\Common\Modules\Finder\Categories\Create->cre in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 48
+[31-Aug-2022 12:37:35 UTC] Astra Addon: Batch Process Started!
+[31-Aug-2022 12:37:35 UTC] Astra Addon: Running migration without batch processing.
+[31-Aug-2022 12:37:35 UTC] Astra Addon: DB version updated!
+[31-Aug-2022 12:38:03 UTC] Astra Addon: Batch Process Completed!
+[01-Sep-2022 03:24:10 UTC] PHP Fatal error:  Uncaught ReflectionException: Method get_site_editor_type does not exist in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:48
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(48): ReflectionClass->getMethod('get_site_editor...')
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(67): Elementor\Core\Common\Modules\Finder\Categories\Create->cre in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 48
+[01-Sep-2022 04:54:06 UTC] PHP Fatal error:  Uncaught ReflectionException: Method get_site_editor_type does not exist in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:48
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(48): ReflectionClass->getMethod('get_site_editor...')
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(67): Elementor\Core\Common\Modules\Finder\Categories\Create->cre in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 48
+[01-Sep-2022 06:42:13 UTC] PHP Fatal error:  Uncaught ReflectionException: Method get_site_editor_type does not exist in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:48
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(48): ReflectionClass->getMethod('get_site_editor...')
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(67): Elementor\Core\Common\Modules\Finder\Categories\Create->cre in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 48
+[01-Sep-2022 07:23:08 UTC] PHP Fatal error:  Uncaught ReflectionException: Method get_site_editor_type does not exist in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:48
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(48): ReflectionClass->getMethod('get_site_editor...')
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(67): Elementor\Core\Common\Modules\Finder\Categories\Create->cre in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 48
+[01-Sep-2022 07:58:39 UTC] PHP Fatal error:  Uncaught ReflectionException: Method get_site_editor_type does not exist in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:48
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(48): ReflectionClass->getMethod('get_site_editor...')
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(67): Elementor\Core\Common\Modules\Finder\Categories\Create->cre in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 48
+[01-Sep-2022 08:55:04 UTC] PHP Fatal error:  Uncaught ReflectionException: Method get_site_editor_type does not exist in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:48
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(48): ReflectionClass->getMethod('get_site_editor...')
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(67): Elementor\Core\Common\Modules\Finder\Categories\Create->cre in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 48
+[01-Sep-2022 08:57:05 UTC] PHP Fatal error:  Uncaught ReflectionException: Method get_site_editor_type does not exist in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:48
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(48): ReflectionClass->getMethod('get_site_editor...')
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(67): Elementor\Core\Common\Modules\Finder\Categories\Create->cre in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 48
+[01-Sep-2022 09:09:54 UTC] PHP Fatal error:  Uncaught ReflectionException: Method get_site_editor_type does not exist in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:48
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(48): ReflectionClass->getMethod('get_site_editor...')
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(67): Elementor\Core\Common\Modules\Finder\Categories\Create->cre in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 48
+[01-Sep-2022 09:10:37 UTC] PHP Fatal error:  Uncaught ReflectionException: Method get_site_editor_type does not exist in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:48
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(48): ReflectionClass->getMethod('get_site_editor...')
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(67): Elementor\Core\Common\Modules\Finder\Categories\Create->cre in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 48
+[01-Sep-2022 09:28:21 UTC] PHP Fatal error:  Uncaught ReflectionException: Method get_site_editor_type does not exist in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:48
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(48): ReflectionClass->getMethod('get_site_editor...')
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(67): Elementor\Core\Common\Modules\Finder\Categories\Create->cre in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 48
+[01-Sep-2022 09:28:39 UTC] PHP Fatal error:  Uncaught ReflectionException: Method get_site_editor_type does not exist in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:48
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(48): ReflectionClass->getMethod('get_site_editor...')
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(67): Elementor\Core\Common\Modules\Finder\Categories\Create->cre in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 48
+[01-Sep-2022 09:29:40 UTC] PHP Fatal error:  Uncaught ReflectionException: Method get_site_editor_type does not exist in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:48
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(48): ReflectionClass->getMethod('get_site_editor...')
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(67): Elementor\Core\Common\Modules\Finder\Categories\Create->cre in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 48
+[01-Sep-2022 09:44:19 UTC] PHP Fatal error:  Uncaught ReflectionException: Method get_site_editor_type does not exist in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:48
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(48): ReflectionClass->getMethod('get_site_editor...')
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(67): Elementor\Core\Common\Modules\Finder\Categories\Create->cre in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 48
+[01-Sep-2022 09:55:59 UTC] PHP Fatal error:  Uncaught ReflectionException: Method get_site_editor_type does not exist in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:48
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(48): ReflectionClass->getMethod('get_site_editor...')
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(67): Elementor\Core\Common\Modules\Finder\Categories\Create->cre in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 48
+[01-Sep-2022 09:56:01 UTC] PHP Fatal error:  Uncaught ReflectionException: Method get_site_editor_type does not exist in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:48
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(48): ReflectionClass->getMethod('get_site_editor...')
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(67): Elementor\Core\Common\Modules\Finder\Categories\Create->cre in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 48
+[01-Sep-2022 10:01:36 UTC] PHP Fatal error:  Uncaught ReflectionException: Method get_site_editor_type does not exist in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:48
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(48): ReflectionClass->getMethod('get_site_editor...')
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(67): Elementor\Core\Common\Modules\Finder\Categories\Create->cre in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 48
+[01-Sep-2022 10:01:37 UTC] PHP Fatal error:  Uncaught ReflectionException: Method get_site_editor_type does not exist in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:48
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(48): ReflectionClass->getMethod('get_site_editor...')
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(67): Elementor\Core\Common\Modules\Finder\Categories\Create->cre in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 48
+[01-Sep-2022 10:25:45 UTC] PHP Fatal error:  Uncaught ReflectionException: Method get_site_editor_type does not exist in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:48
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(48): ReflectionClass->getMethod('get_site_editor...')
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(67): Elementor\Core\Common\Modules\Finder\Categories\Create->cre in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 48
+[01-Sep-2022 10:46:16 UTC] PHP Fatal error:  Uncaught ReflectionException: Method get_site_editor_type does not exist in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:48
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(48): ReflectionClass->getMethod('get_site_editor...')
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(67): Elementor\Core\Common\Modules\Finder\Categories\Create->cre in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 48
+[01-Sep-2022 10:52:00 UTC] PHP Fatal error:  Uncaught ReflectionException: Method get_site_editor_type does not exist in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:48
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(48): ReflectionClass->getMethod('get_site_editor...')
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(67): Elementor\Core\Common\Modules\Finder\Categories\Create->cre in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 48
+[01-Sep-2022 10:53:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ElementorPro\Modules\ThemeBuilder\Documents\Header::get_site_editor_type() in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:142
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(64): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document->get_name()
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.ph in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 142
+[01-Sep-2022 10:53:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ElementorPro\Modules\ThemeBuilder\Documents\Header::get_site_editor_type() in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:142
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(64): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document->get_name()
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.ph in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 142
+[01-Sep-2022 10:54:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ElementorPro\Modules\ThemeBuilder\Documents\Header::get_site_editor_type() in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:142
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(64): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document->get_name()
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.ph in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 142
+[01-Sep-2022 10:54:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ElementorPro\Modules\ThemeBuilder\Documents\Header::get_site_editor_type() in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:142
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(64): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document->get_name()
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.ph in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 142
+[01-Sep-2022 10:55:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ElementorPro\Modules\ThemeBuilder\Documents\Header::get_site_editor_type() in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:142
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(64): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document->get_name()
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.ph in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 142
+[01-Sep-2022 10:56:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ElementorPro\Modules\ThemeBuilder\Documents\Header::get_site_editor_type() in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:144
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(66): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document->get_name()
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(131): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.ph in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 144
+[01-Sep-2022 10:56:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ElementorPro\Modules\ThemeBuilder\Documents\Header::get_site_editor_type() in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:144
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(66): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document->get_name()
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(131): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.ph in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 144
+[01-Sep-2022 10:56:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ElementorPro\Modules\ThemeBuilder\Documents\Header::get_site_editor_type() in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:144
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(66): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document->get_name()
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(131): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.ph in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 144
+[01-Sep-2022 10:56:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ElementorPro\Modules\ThemeBuilder\Documents\Header::get_site_editor_type() in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:144
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(66): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document->get_name()
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(131): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.ph in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 144
+[01-Sep-2022 10:58:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ElementorPro\Modules\ThemeBuilder\Documents\Header::get_site_editor_type() in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:144
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(66): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document->get_name()
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(131): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.ph in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 144
+[01-Sep-2022 10:59:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ElementorPro\Modules\ThemeBuilder\Documents\Header::get_site_editor_type() in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:144
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(66): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document->get_name()
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(131): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.ph in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 144
+[01-Sep-2022 11:06:51 UTC] PHP Fatal error:  Uncaught ReflectionException: Method get_site_editor_type does not exist in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:48
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(48): ReflectionClass->getMethod('get_site_editor...')
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(67): Elementor\Core\Common\Modules\Finder\Categories\Create->cre in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 48
+[01-Sep-2022 11:06:55 UTC] PHP Fatal error:  Uncaught ReflectionException: Method get_site_editor_type does not exist in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:48
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(48): ReflectionClass->getMethod('get_site_editor...')
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(67): Elementor\Core\Common\Modules\Finder\Categories\Create->cre in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 48
+[01-Sep-2022 11:08:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ElementorPro\Modules\ThemeBuilder\Documents\Header::get_site_editor_type() in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:142
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(64): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document->get_name()
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.ph in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 142
+[01-Sep-2022 11:13:09 UTC] PHP Fatal error:  Uncaught ReflectionException: Method get_site_editor_type does not exist in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:48
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(48): ReflectionClass->getMethod('get_site_editor...')
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(67): Elementor\Core\Common\Modules\Finder\Categories\Create->cre in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 48
+[01-Sep-2022 11:13:11 UTC] PHP Fatal error:  Uncaught ReflectionException: Method get_site_editor_type does not exist in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:48
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(48): ReflectionClass->getMethod('get_site_editor...')
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(67): Elementor\Core\Common\Modules\Finder\Categories\Create->cre in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 48
+[01-Sep-2022 11:15:24 UTC] PHP Fatal error:  Uncaught ReflectionException: Method get_site_editor_type does not exist in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:48
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(48): ReflectionClass->getMethod('get_site_editor...')
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(67): Elementor\Core\Common\Modules\Finder\Categories\Create->cre in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 48
+[01-Sep-2022 11:46:11 UTC] PHP Fatal error:  Uncaught ReflectionException: Method get_site_editor_type does not exist in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:48
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(48): ReflectionClass->getMethod('get_site_editor...')
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(67): Elementor\Core\Common\Modules\Finder\Categories\Create->cre in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 48
+[01-Sep-2022 11:46:19 UTC] PHP Fatal error:  Uncaught ReflectionException: Method get_site_editor_type does not exist in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:48
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(48): ReflectionClass->getMethod('get_site_editor...')
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(67): Elementor\Core\Common\Modules\Finder\Categories\Create->cre in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 48
+[08-Sep-2022 10:44:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/shortpixel-image-optimiser/class/Model/Image/MediaLibraryModel.php on line 2375
+[08-Sep-2022 14:39:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/shortpixel-image-optimiser/class/Model/Image/MediaLibraryModel.php on line 2375
+[27-Sep-2022 09:05:53 UTC] Astra Addon: DB version updated!
+[03-Oct-2022 11:05:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/shortpixel-image-optimiser/class/Model/Image/MediaLibraryModel.php on line 2375
+[06-Oct-2022 08:56:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/shortpixel-image-optimiser/class/Model/Image/MediaLibraryModel.php on line 2375
+[06-Oct-2022 08:56:47 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/shortpixel-image-optimiser/class/Model/Image/MediaLibraryModel.php on line 2375
+[06-Oct-2022 08:57:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/shortpixel-image-optimiser/class/Model/Image/MediaLibraryModel.php on line 2375
+[06-Oct-2022 08:57:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/shortpixel-image-optimiser/class/Model/Image/MediaLibraryModel.php on line 2375
+[06-Oct-2022 11:54:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/shortpixel-image-optimiser/class/Model/Image/MediaLibraryModel.php on line 2375
+[06-Oct-2022 11:54:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/shortpixel-image-optimiser/class/Model/Image/MediaLibraryModel.php on line 2375
+[06-Oct-2022 11:54:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/shortpixel-image-optimiser/class/Model/Image/MediaLibraryModel.php on line 2375
+[06-Oct-2022 11:55:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/shortpixel-image-optimiser/class/Model/Image/MediaLibraryModel.php on line 2375
+[06-Oct-2022 16:07:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/shortpixel-image-optimiser/class/Model/Image/MediaLibraryModel.php on line 2375
+[28-Oct-2022 13:52:40 UTC] PHP Warning:  scandir(/home/customer/www/labsolute.nl/public_html/wp-content/cache/sgo-cache/): failed to open dir: No such file or directory in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/sg-cachepress/core/File_Cacher/File_Cacher.php on line 496
+[28-Oct-2022 13:52:40 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/sg-cachepress/core/File_Cacher/File_Cacher.php on line 496
+[28-Oct-2022 13:52:40 UTC] PHP Warning:  array_diff(): Expected parameter 1 to be an array, bool given in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/sg-cachepress/core/File_Cacher/File_Cacher.php on line 496
+[28-Oct-2022 13:52:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/sg-cachepress/core/File_Cacher/File_Cacher.php on line 498
+[28-Oct-2022 13:52:41 UTC] PHP Warning:  scandir(/home/customer/www/labsolute.nl/public_html/wp-content/cache/sgo-cache/): failed to open dir: No such file or directory in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/sg-cachepress/core/File_Cacher/File_Cacher.php on line 496
+[28-Oct-2022 13:52:41 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/sg-cachepress/core/File_Cacher/File_Cacher.php on line 496
+[28-Oct-2022 13:52:41 UTC] PHP Warning:  array_diff(): Expected parameter 1 to be an array, bool given in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/sg-cachepress/core/File_Cacher/File_Cacher.php on line 496
+[28-Oct-2022 13:52:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/sg-cachepress/core/File_Cacher/File_Cacher.php on line 498
+[29-Oct-2022 04:52:15 UTC] PHP Warning:  scandir(/home/customer/www/labsolute.nl/public_html/wp-content/cache/sgo-cache/): failed to open dir: No such file or directory in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/sg-cachepress/core/File_Cacher/File_Cacher.php on line 496
+[29-Oct-2022 04:52:15 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/sg-cachepress/core/File_Cacher/File_Cacher.php on line 496
+[29-Oct-2022 04:52:15 UTC] PHP Warning:  array_diff(): Expected parameter 1 to be an array, bool given in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/sg-cachepress/core/File_Cacher/File_Cacher.php on line 496
+[29-Oct-2022 04:52:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/sg-cachepress/core/File_Cacher/File_Cacher.php on line 498
+[29-Oct-2022 04:52:15 UTC] PHP Warning:  scandir(/home/customer/www/labsolute.nl/public_html/wp-content/cache/sgo-cache/): failed to open dir: No such file or directory in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/sg-cachepress/core/File_Cacher/File_Cacher.php on line 496
+[29-Oct-2022 04:52:15 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/sg-cachepress/core/File_Cacher/File_Cacher.php on line 496
+[29-Oct-2022 04:52:15 UTC] PHP Warning:  array_diff(): Expected parameter 1 to be an array, bool given in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/sg-cachepress/core/File_Cacher/File_Cacher.php on line 496
+[29-Oct-2022 04:52:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/sg-cachepress/core/File_Cacher/File_Cacher.php on line 498
+[29-Oct-2022 04:52:16 UTC] PHP Warning:  scandir(/home/customer/www/labsolute.nl/public_html/wp-content/cache/sgo-cache/): failed to open dir: No such file or directory in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/sg-cachepress/core/File_Cacher/File_Cacher.php on line 496
+[29-Oct-2022 04:52:16 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/sg-cachepress/core/File_Cacher/File_Cacher.php on line 496
+[29-Oct-2022 04:52:16 UTC] PHP Warning:  array_diff(): Expected parameter 1 to be an array, bool given in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/sg-cachepress/core/File_Cacher/File_Cacher.php on line 496
+[29-Oct-2022 04:52:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/sg-cachepress/core/File_Cacher/File_Cacher.php on line 498
+[29-Oct-2022 06:10:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/shortpixel-image-optimiser/class/Model/Image/MediaLibraryModel.php on line 2375
+[29-Oct-2022 06:10:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/shortpixel-image-optimiser/class/Model/Image/MediaLibraryModel.php on line 2375
+[29-Oct-2022 06:10:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/shortpixel-image-optimiser/class/Model/Image/MediaLibraryModel.php on line 2375
+[29-Oct-2022 06:10:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/shortpixel-image-optimiser/class/Model/Image/MediaLibraryModel.php on line 2375
+[29-Oct-2022 06:10:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/shortpixel-image-optimiser/class/Model/Image/MediaLibraryModel.php on line 2375
+[29-Oct-2022 06:10:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/shortpixel-image-optimiser/class/Model/Image/MediaLibraryModel.php on line 2375
+[29-Oct-2022 06:10:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/shortpixel-image-optimiser/class/Model/Image/MediaLibraryModel.php on line 2375
+[29-Oct-2022 06:10:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/shortpixel-image-optimiser/class/Model/Image/MediaLibraryModel.php on line 2375
+[01-Nov-2022 11:32:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/shortpixel-image-optimiser/class/Model/Image/MediaLibraryModel.php on line 2375
+[03-Nov-2022 16:23:28 UTC] PHP Fatal error:  Uncaught Error: Class 'ShortPixel\Notices\NoticeController' not found in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/shortpixel-image-optimiser/shortpixel-plugin.php:85
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-includes/class-wp-hook.php(308): ShortPixel\ShortPixelPlugin->init('')
+#1 /home/customer/www/labsolute.nl/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/labsolute.nl/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/customer/www/labsolute.nl/public_html/wp-admin/admin.php(175): do_action('admin_init')
+#4 {main}
+  thrown in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/shortpixel-image-optimiser/shortpixel-plugin.php on line 85
+[03-Nov-2022 16:24:03 UTC] WordPress database error Table 'dbjiyu6mvnhszx.a' doesn't exist for query SELECT a.action_id FROM  a WHERE 1=1 AND a.hook='rocket_preload_job_check_finished' AND a.status IN ('pending') ORDER BY a.scheduled_date_gmt ASC LIMIT 0, 5 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, Elementor\Plugin->init, Elementor\Plugin->init_components, Elementor\Core\Base\DB_Upgrades_Manager->__construct, Elementor\Core\Base\DB_Upgrades_Manager->start_run, Elementor\Core\Base\DB_Upgrades_Manager->clear_cache, Elementor\Core\Files\Manager->clear_cache, do_action('elementor/core/files/clear_cache'), WP_Hook->do_action, WP_Hook->apply_filters, WP_Rocket\ThirdParty\Plugins\PageBuilder\Elementor->clear_cache, rocket_clean_domain, do_action('after_rocket_clean_domain'), WP_Hook->do_action, WP_Hook->apply_filters, WP_Rocket\Engine\Preload\Subscriber->clean_full_cache, WP_Rocket\Engine\Preload\Controller\Queue->add_job_preload_job_check_finished_async, WP_Rocket\Engine\Preload\Controller\Queue->job_preload_job_check_finished_async_exists, WP_Rocket\Engine\Common\Queue\AbstractASQueue->search, as_get_scheduled_actions, ActionScheduler_DBStore->query_actions
+[03-Nov-2022 16:24:03 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE slug='rocket-preload'' at line 1 for query SELECT group_id FROM  WHERE slug='rocket-preload' made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, Elementor\Plugin->init, Elementor\Plugin->init_components, Elementor\Core\Base\DB_Upgrades_Manager->__construct, Elementor\Core\Base\DB_Upgrades_Manager->start_run, Elementor\Core\Base\DB_Upgrades_Manager->clear_cache, Elementor\Core\Files\Manager->clear_cache, do_action('elementor/core/files/clear_cache'), WP_Hook->do_action, WP_Hook->apply_filters, WP_Rocket\ThirdParty\Plugins\PageBuilder\Elementor->clear_cache, rocket_clean_domain, do_action('after_rocket_clean_domain'), WP_Hook->do_action, WP_Hook->apply_filters, WP_Rocket\Engine\Preload\Subscriber->clean_full_cache, WP_Rocket\Engine\Preload\Controller\Queue->add_job_preload_job_check_finished_async, WP_Rocket\Engine\Common\Queue\AbstractASQueue->schedule_single, as_schedule_single_action, ActionScheduler_ActionFactory->single, ActionScheduler_ActionFactory->store, ActionScheduler_DBStore->save_action, ActionScheduler_DBStore->get_group_id
+[03-Nov-2022 16:24:03 UTC] WordPress database error Incorrect table name '' for query SHOW FULL COLUMNS FROM `` made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, Elementor\Plugin->init, Elementor\Plugin->init_components, Elementor\Core\Base\DB_Upgrades_Manager->__construct, Elementor\Core\Base\DB_Upgrades_Manager->start_run, Elementor\Core\Base\DB_Upgrades_Manager->clear_cache, Elementor\Core\Files\Manager->clear_cache, do_action('elementor/core/files/clear_cache'), WP_Hook->do_action, WP_Hook->apply_filters, WP_Rocket\ThirdParty\Plugins\PageBuilder\Elementor->clear_cache, rocket_clean_domain, do_action('after_rocket_clean_domain'), WP_Hook->do_action, WP_Hook->apply_filters, WP_Rocket\Engine\Preload\Subscriber->clean_full_cache, WP_Rocket\Engine\Preload\Controller\Queue->add_job_preload_job_check_finished_async, WP_Rocket\Engine\Common\Queue\AbstractASQueue->schedule_single, as_schedule_single_action, ActionScheduler_ActionFactory->single, ActionScheduler_ActionFactory->store, ActionScheduler_DBStore->save_action, ActionScheduler_DBStore->get_group_id, ActionScheduler_DBStore->create_group
+[03-Nov-2022 17:09:05 UTC] PHP Warning:  Creating default object from empty value in /home/customer/www/labsolute.nl/public_html/wp-includes/post.php on line 4592
+[03-Nov-2022 17:09:05 UTC] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, instance of stdClass given, called in /home/customer/www/labsolute.nl/public_html/wp-includes/class-wp-hook.php on line 310 and defined in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/template-library/sources/local.php:1080
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-includes/class-wp-hook.php(310): Elementor\TemplateLibrary\Source_Local->on_save_post(35399, Object(stdClass))
+#1 /home/customer/www/labsolute.nl/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/labsolute.nl/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/customer/www/labsolute.nl/public_html/wp-includes/post.php(4717): do_action('save_post', 35399, Object(stdClass), true)
+#4 /home/customer/www/labsolute.nl/public_html/wp-includes/post.php(4819): wp_insert_post(Array, false, true)
+# in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/elementor/includes/template-library/sources/local.php on line 1080
+[03-Nov-2022 20:02:32 UTC] The WC_Product::get_dimensions argument is deprecated since version 3.0. By default, get_dimensions has an argument set to true so that HTML is returned. This is to support the legacy version of the method. To get HTML dimensions, instead use wc_format_dimensions() function. Pass false to this method to return an array of dimensions. This will be the new default behavior in future versions.
+[03-Nov-2022 20:03:27 UTC] The WC_Product::get_dimensions argument is deprecated since version 3.0. By default, get_dimensions has an argument set to true so that HTML is returned. This is to support the legacy version of the method. To get HTML dimensions, instead use wc_format_dimensions() function. Pass false to this method to return an array of dimensions. This will be the new default behavior in future versions.
+[03-Nov-2022 20:04:27 UTC] The WC_Product::get_dimensions argument is deprecated since version 3.0. By default, get_dimensions has an argument set to true so that HTML is returned. This is to support the legacy version of the method. To get HTML dimensions, instead use wc_format_dimensions() function. Pass false to this method to return an array of dimensions. This will be the new default behavior in future versions.
+[03-Nov-2022 20:06:08 UTC] The WC_Product::get_dimensions argument is deprecated since version 3.0. By default, get_dimensions has an argument set to true so that HTML is returned. This is to support the legacy version of the method. To get HTML dimensions, instead use wc_format_dimensions() function. Pass false to this method to return an array of dimensions. This will be the new default behavior in future versions.
+[03-Nov-2022 20:06:12 UTC] The WC_Product::get_dimensions argument is deprecated since version 3.0. By default, get_dimensions has an argument set to true so that HTML is returned. This is to support the legacy version of the method. To get HTML dimensions, instead use wc_format_dimensions() function. Pass false to this method to return an array of dimensions. This will be the new default behavior in future versions.
+[03-Nov-2022 20:06:20 UTC] The WC_Product::get_dimensions argument is deprecated since version 3.0. By default, get_dimensions has an argument set to true so that HTML is returned. This is to support the legacy version of the method. To get HTML dimensions, instead use wc_format_dimensions() function. Pass false to this method to return an array of dimensions. This will be the new default behavior in future versions.
+[03-Nov-2022 20:06:26 UTC] The WC_Product::get_dimensions argument is deprecated since version 3.0. By default, get_dimensions has an argument set to true so that HTML is returned. This is to support the legacy version of the method. To get HTML dimensions, instead use wc_format_dimensions() function. Pass false to this method to return an array of dimensions. This will be the new default behavior in future versions.
+[03-Nov-2022 20:06:27 UTC] The WC_Product::get_dimensions argument is deprecated since version 3.0. By default, get_dimensions has an argument set to true so that HTML is returned. This is to support the legacy version of the method. To get HTML dimensions, instead use wc_format_dimensions() function. Pass false to this method to return an array of dimensions. This will be the new default behavior in future versions.
+[03-Nov-2022 20:06:53 UTC] The WC_Product::get_dimensions argument is deprecated since version 3.0. By default, get_dimensions has an argument set to true so that HTML is returned. This is to support the legacy version of the method. To get HTML dimensions, instead use wc_format_dimensions() function. Pass false to this method to return an array of dimensions. This will be the new default behavior in future versions.
+[03-Nov-2022 20:07:00 UTC] The WC_Product::get_dimensions argument is deprecated since version 3.0. By default, get_dimensions has an argument set to true so that HTML is returned. This is to support the legacy version of the method. To get HTML dimensions, instead use wc_format_dimensions() function. Pass false to this method to return an array of dimensions. This will be the new default behavior in future versions.
+[03-Nov-2022 20:07:15 UTC] The WC_Product::get_dimensions argument is deprecated since version 3.0. By default, get_dimensions has an argument set to true so that HTML is returned. This is to support the legacy version of the method. To get HTML dimensions, instead use wc_format_dimensions() function. Pass false to this method to return an array of dimensions. This will be the new default behavior in future versions.
+[03-Nov-2022 20:07:34 UTC] The WC_Product::get_dimensions argument is deprecated since version 3.0. By default, get_dimensions has an argument set to true so that HTML is returned. This is to support the legacy version of the method. To get HTML dimensions, instead use wc_format_dimensions() function. Pass false to this method to return an array of dimensions. This will be the new default behavior in future versions.
+[03-Nov-2022 20:07:38 UTC] The WC_Product::get_dimensions argument is deprecated since version 3.0. By default, get_dimensions has an argument set to true so that HTML is returned. This is to support the legacy version of the method. To get HTML dimensions, instead use wc_format_dimensions() function. Pass false to this method to return an array of dimensions. This will be the new default behavior in future versions.
+[03-Nov-2022 20:07:50 UTC] The WC_Product::get_dimensions argument is deprecated since version 3.0. By default, get_dimensions has an argument set to true so that HTML is returned. This is to support the legacy version of the method. To get HTML dimensions, instead use wc_format_dimensions() function. Pass false to this method to return an array of dimensions. This will be the new default behavior in future versions.
+[03-Nov-2022 20:08:09 UTC] The WC_Product::get_dimensions argument is deprecated since version 3.0. By default, get_dimensions has an argument set to true so that HTML is returned. This is to support the legacy version of the method. To get HTML dimensions, instead use wc_format_dimensions() function. Pass false to this method to return an array of dimensions. This will be the new default behavior in future versions.
+[03-Nov-2022 20:08:25 UTC] The WC_Product::get_dimensions argument is deprecated since version 3.0. By default, get_dimensions has an argument set to true so that HTML is returned. This is to support the legacy version of the method. To get HTML dimensions, instead use wc_format_dimensions() function. Pass false to this method to return an array of dimensions. This will be the new default behavior in future versions.
+[06-Nov-2022 05:11:00 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:11:00 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:11:00 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:11:00 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:11:47 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:11:47 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:14:51 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:14:51 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:17:52 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:17:52 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:17:52 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:17:52 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:17:52 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:17:52 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:17:52 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:17:52 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:17:52 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:17:52 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:17:52 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:17:52 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:17:52 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:17:52 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:17:52 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:17:52 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:17:52 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:17:52 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:17:52 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:17:52 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:18:23 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:18:23 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:18:23 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:18:23 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:18:23 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:18:23 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:18:23 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:18:23 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:18:23 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:18:23 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:18:23 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:18:23 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:18:23 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:18:23 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:18:23 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:18:23 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:18:23 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:18:23 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:18:23 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:18:23 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:22:25 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:22:25 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:22:25 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:22:25 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:22:25 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:22:25 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:22:25 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:22:25 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:22:25 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:22:25 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:22:25 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:22:25 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:22:25 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:22:25 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:22:25 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:22:25 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:22:25 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:22:25 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:22:25 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:22:25 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:23:01 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:23:01 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:23:01 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:23:01 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:23:01 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:23:01 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:23:01 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:23:01 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:23:01 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:23:01 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:23:01 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:23:01 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:23:01 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:23:01 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:23:01 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:23:01 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:23:01 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:23:01 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:23:01 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:23:01 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:23:51 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:23:51 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:23:51 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:23:51 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:23:51 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:23:51 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:23:51 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:23:51 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:23:51 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:23:51 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:23:51 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:23:51 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:23:51 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:23:51 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:23:51 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:23:51 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:23:51 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:23:51 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:23:51 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:23:51 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:24:27 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:24:27 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:24:27 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:24:27 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:24:27 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:24:27 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:24:27 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:24:27 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:24:27 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:24:27 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:24:27 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:24:27 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:24:27 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:24:27 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:24:27 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:24:27 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:24:27 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:24:27 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:24:27 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:24:27 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:25:04 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:25:04 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:25:04 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:25:04 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:25:04 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:25:04 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:25:04 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:25:04 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:25:04 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:25:04 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:25:04 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:25:04 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:25:04 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:25:04 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:25:04 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:25:04 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:25:04 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:25:04 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:25:04 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:25:04 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:25:35 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:25:35 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:25:35 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:25:35 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:25:35 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:25:35 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:25:35 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:25:35 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:25:35 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:25:35 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:25:35 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:25:35 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:25:35 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:25:35 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:25:35 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:25:35 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:25:35 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:25:35 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:25:35 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:25:35 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:00 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:00 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:00 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:00 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:00 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:00 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:00 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:00 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:00 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:00 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:00 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:00 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:00 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:00 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:00 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:00 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:00 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:00 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:00 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:00 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:00 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:00 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:00 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:00 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:00 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:00 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:00 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:00 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:00 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:00 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:00 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:00 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:00 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:00 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:00 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:00 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:00 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:00 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:00 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:00 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:55 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:55 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:55 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:55 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:55 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:55 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:55 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:55 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:55 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:55 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:55 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:55 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:55 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:55 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:55 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:55 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:55 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:55 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:55 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/. Error code: 429. Message: Too many client connections in one minute.
+[06-Nov-2022 05:26:55 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one minute.
+[07-Nov-2022 08:23:19 UTC] PHP Fatal error:  is_callable(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Siteground_Migrator_Files_Service&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/siteground-migrator/core/Background_Process/Background_Process.php on line 42
+[07-Nov-2022 09:15:07 UTC] PHP Fatal error:  Allowed memory size of 2147483648 bytes exhausted (tried to allocate 1283465232 bytes) in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/siteground-migrator/core/Files_Service/Files_Service.php on line 373
+[16-Nov-2022 03:16:27 UTC] Astra Addon: Batch Process Started!
+[16-Nov-2022 03:16:27 UTC] Astra Addon: Queuing 3.9.3 - astra_addon_update_variant_active_state
+[16-Nov-2022 03:16:28 UTC] Astra Addon: DB version updated!
+[16-Nov-2022 03:16:30 UTC] Astra Addon: Batch Process Completed!
+[02-Dec-2022 12:36:57 UTC] There was an issue purging the cache for this URL: https://labsolute.nl/feed. Error code: 429. Message: Too many client connections in one second.
+[09-Dec-2022 13:11:23 UTC] PHP Warning:  include(/home/customer/www/labsolute.nl/public_html/wp-content/plugins/wordpress-seo/vendor/composer/../../src/exceptions/indexable/author-not-built-exception.php): failed to open stream: No such file or directory in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/ameliabooking/vendor/composer/ClassLoader.php on line 444
+[09-Dec-2022 13:11:23 UTC] PHP Warning:  include(): Failed opening '/home/customer/www/labsolute.nl/public_html/wp-content/plugins/wordpress-seo/vendor/composer/../../src/exceptions/indexable/author-not-built-exception.php' for inclusion (include_path='.:/usr/local/php74/pear') in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/ameliabooking/vendor/composer/ClassLoader.php on line 444
+[09-Dec-2022 13:11:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Yoast\WP\SEO\Exceptions\Indexable\Author_Not_Built_Exception' not found in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/wordpress-seo/src/builders/indexable-author-builder.php:214
+Stack trace:
+#0 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/wordpress-seo/src/builders/indexable-author-builder.php(80): Yoast\WP\SEO\Builders\Indexable_Author_Builder->check_if_user_should_be_indexed(158)
+#1 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/wordpress-seo/src/builders/indexable-builder.php(371): Yoast\WP\SEO\Builders\Indexable_Author_Builder->build(158, Object(Yoast\WP\SEO\Models\Indexable))
+#2 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/wordpress-seo/src/builders/indexable-builder.php(183): Yoast\WP\SEO\Builders\Indexable_Builder->build(Object(Yoast\WP\SEO\Models\Indexable), Array)
+#3 /home/customer/www/labsolute.nl/public_html/wp-content/plugins/wordpress-seo/src/repositories/indexable-repository.php(338): Yoast\WP\SEO\Buil in /home/customer/www/labsolute.nl/public_html/wp-content/plugins/wordpress-seo/src/builders/indexable-author-builder.php on line 214

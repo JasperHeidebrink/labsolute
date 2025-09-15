@@ -1,0 +1,195 @@
+/*
+ Theme Name:     Labsolute
+ Theme URI:      http://www.labsolute.nl
+ Description:    Custom Theme base on the Astra Theme
+ Author:         Dragonet
+ Author URI:     http://www.dragonet.nl
+ Template:       astra
+ Version:        1.0.2
+*/
+
+/**
+ Sidebar settings for blog page
+ */
+.single-post .elementor-widget-wrap .elementor-element nav ul {
+    margin: 0;
+    list-style: none;
+}
+.single-post .elementor-widget-wrap .elementor-element nav ul li {
+    list-style: none;
+    margin: 0.25rem 0;
+    font-family: "Proxima Nova semi bold", open-sans !important;
+    font-size: 100%;
+}
+/**
+ Category style
+ */
+.ast-article-post.remove-featured-img-padding .blog-layout-4 .post-content .ast-blog-featured-section .post-thumb-img-content {
+    height: 300px;
+}
+.ast-article-post.remove-featured-img-padding .blog-layout-4 .post-content .ast-blog-featured-section .post-thumb-img-content img {
+    object-fit: cover;
+    height:100%;
+}
+.ast-article-post.remove-featured-img-padding .blog-layout-4 .post-content .entry-title a {
+    height: 6.2rem;
+    overflow: hidden;
+    display: flex;
+}
+
+
+.woocommerce-terms-and-conditions-wrapper abbr.required {
+    vertical-align: bottom;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-left: -4px;
+}
+span.woocommerce-terms-and-conditions-checkbox-text {
+    font-size: 14px;
+    font-family: sans-serif !important;
+}
+.wcf-embed-checkout-form .woocommerce .wcf-product-image img {
+    border-radius: 0 !important;
+}
+li.wc_payment_method.payment_method_mollie_wc_gateway_ideal .payment_box p:first-child {
+    display: none;
+}
+.calendly-inline-widget{
+    height: 100% !important;
+}
+
+.calendly-inline-widget iframe{
+    height: 1000px !important;
+}
+
+span.optional {
+    display: none;
+}
+
+
+@media only screen and (max-width: 980px){
+    .site-header .site-description{
+        font-size: 22px;
+    }
+}
+
+@media only screen and (min-width: 981px){
+    .elementor-container{
+        width: 90%;
+        margin: auto;
+        padding: 0% 2%;
+    }
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active:before {
+    background: none;
+}
+
+tr.cart-subtotal.recurring-total {
+    display: none;
+}
+
+.woocommerce form .form-row label.checkbox, .woocommerce-page form .form-row label.checkbox {
+    line-height: 0;
+    font-size: 18px;
+}
+
+.woocommerce-privacy-policy-text {
+    display: none;
+}
+
+.woocommerce {
+    font-family: 'Proxima Nova semi bold' !important;
+}
+
+span.woocommerce-terms-and-conditions-checkbox-text {
+    font-size: 15.2px;
+}
+
+.el-button--primary span, #am-continue-button span {
+    color: white !important;
+}
+
+#am-continue-button {
+    background-color: #EA6E3F;
+}
+
+.wcf-display-subscription-details {
+    display: none;
+}
+
+.elementor-widget .elementor-icon-list-item, .elementor-widget .elementor-icon-list-item a {
+    align-items: start;
+}
+
+div#sys_gdpr_cookie_info_bar {
+    background-color: #F8F8F8;
+}
+
+.sys-gdpr-cookie-notice p {
+    color: black !important;
+}
+
+/* Cart */
+a.elementor-button.elementor-button--view-cart.elementor-size-md, a.elementor-button.elementor-button--checkout.elementor-size-md {
+    background-color: #E8602D;
+    color: black;
+}
+
+a.elementor-button.elementor-button--view-cart.elementor-size-md:hover, a.elementor-button.elementor-button--checkout.elementor-size-md:hover {
+    color: white;
+}
+
+.custom-position .elementor-icon-list-text {
+    position:relative;
+    top: -4px;
+}
+
+.single-post h2 {
+
+    line-height: 1.3em!important;
+    text-align: left;
+}
+
+.single-post p {
+    font-family: "Proxima Nova semi bold", open-sans!important;
+}
+.single-post h1{
+
+    font-family: "Orpheus Pro", sans-serif !important;
+    letter-spacing: 1px;
+    font-style: bold;
+
+}
+
+h2, h3, h4 {
+    font-family: "Orpheus Pro", sans-serif !important;
+    letter-spacing: 1px;
+    font-style: bold!important;
+}
+
+blockquote {
+
+    background: #f2deda;
+    border: none;
+}
+
+li blockquote  {
+
+    margin: 5px;
+    padding-top: 5px;
+}
+
+li blockquote p {
+    margin-bottom: 0;
+}
+
+h3 {
+    font-size: 22px!important;
+    font-weight: bold;
+}
+
+.position_stick {
+    bottom: 0;
+    position: fixed !important;
+}
